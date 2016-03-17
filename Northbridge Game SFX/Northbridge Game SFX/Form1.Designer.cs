@@ -43,6 +43,7 @@
             resources.ApplyResources(this.ExtractButton, "ExtractButton");
             this.ExtractButton.Name = "ExtractButton";
             this.ExtractButton.UseVisualStyleBackColor = true;
+            this.ExtractButton.Click += new System.EventHandler(this.ExtractButton_Click);
             // 
             // ExitButton
             // 
